@@ -18,6 +18,13 @@ steps:
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
 
+
+
+- script: |
+    mkdir -p ~/.ssh
+    ssh-keyscan 193.122.191.76 >> ~/.ssh/known_hosts
+  displayName: 'Add remote host key to known_hosts'
+
 - script: |
     cat ~/.ssh/known_hosts
   displayName: 'Display known_hosts'
