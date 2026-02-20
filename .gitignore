@@ -1,0 +1,21 @@
+# Compiled binaries
+i/fibonacci
+m/fibonacci
+m/fib_m
+n/fibonacci
+
+# Java/Scala JARs
+s/*.jar
+
+# TypeScript compiled output
+t/*.js
+
+# WebAssembly compiled output
+w/*.wasm
+
+# .NET build artifacts
+v/obj/
+v/bin/
+
+# Nim cache
+nimcache/
