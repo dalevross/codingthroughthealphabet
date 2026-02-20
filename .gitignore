@@ -19,3 +19,17 @@ v/bin/
 
 # Nim cache
 nimcache/
+
+# Q# dotnet build artifacts
+q/bin/
+q/obj/
+
+# Go module cache
+root/
+
+# VB.NET build artifacts
+v/bin/
+v/obj/
+
+# CodeQL
+_codeql_detected_source_root
