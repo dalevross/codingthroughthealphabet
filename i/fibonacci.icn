@@ -1,0 +1,10 @@
+procedure main()
+    a := 0
+    b := 1
+    every 1 to 10 do {
+        write(a)
+        c := a + b
+        a := b
+        b := c
+    }
+end

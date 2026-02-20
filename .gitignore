@@ -1,0 +1,35 @@
+# Compiled binaries
+i/fibonacci
+m/fibonacci
+m/fib_m
+n/fibonacci
+
+# Java/Scala JARs
+s/*.jar
+
+# TypeScript compiled output
+t/*.js
+
+# WebAssembly compiled output
+w/*.wasm
+
+# .NET build artifacts
+v/obj/
+v/bin/
+
+# Nim cache
+nimcache/
+
+# Q# dotnet build artifacts
+q/bin/
+q/obj/
+
+# Go module cache
+root/
+
+# VB.NET build artifacts
+v/bin/
+v/obj/
+
+# CodeQL
+_codeql_detected_source_root
